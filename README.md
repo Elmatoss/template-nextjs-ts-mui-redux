@@ -1,5 +1,15 @@
 # This is my personal Template Project for creating a new Next App with Typescript
 
+ If you want to use this template, run 
+ 
+ ```bash
+ npx create-next-app@latest --typescript --example https://github.com/Elmatoss/template-nextjs-ts-mui-redux
+ # or
+ yarn create next-app --typescript --example https://github.com/Elmatoss/template-nextjs-ts-mui-redux
+ ```
+ 
+ or
+
 ## It contains the basic Setup for:
 
 | Name          |   Package Name   | Version |
