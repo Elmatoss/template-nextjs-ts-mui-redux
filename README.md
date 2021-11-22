@@ -23,7 +23,7 @@
 | @mui/icons-material |     5.1.1      |          MUI Icons Package           |
 | @mui/lab            | 5.0.0-alpha.55 | MUI Lab Components (i.e. DatePicker) |
 | date-fns            |     2.26.0     |          JS Date Utilities           |
-| lodash              |     2.26.0     |             JS Utilities             |
+| lodash              |    4.17.21     |             JS Utilities             |
 | react-redux         |     7.2.6      | Connect Redux to React + Hooks etc.  |
 
 ---
