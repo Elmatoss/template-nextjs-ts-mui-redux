@@ -1,0 +1,22 @@
+{
+  "errorKeys": {
+    "default": "Something went wrong, please try to reload the page."
+  },
+  "notification": {},
+  "validation": {
+    "required": "Required"
+  },
+  "actions": {
+    "login": "Login",
+    "submit": "Submit",
+    "save": "Save",
+    "close": "Close",
+    "delete": "Delete",
+    "back": "Back",
+    "register": "Register",
+    "continue": "Continue"
+  },
+  "documentTitle": {
+    "default": "Your App Name"
+  }
+}

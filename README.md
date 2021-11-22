@@ -1,3 +1,71 @@
+# This is my personal Template Project for creating a new Next App with Typescript
+
+## It contains the basic Setup for:
+
+| Name          |   Package Name   | Version |
+| ------------- | :--------------: | :-----: |
+| React         |      react       | 17.0.2  |
+| Material-UI   |  @mui/material   |  5.1.1  |
+| Redux Toolkit | @reduxjs/toolkit |  1.6.2  |
+| Redux Persist |  redux-persist   |  6.0.0  |
+| Node Polyglot |  node-polyglot   |  2.4.2  |
+
+---
+
+## Following Libraries were added for convenience (or needed by one of the above)
+
+| Package Name        |    Version     |               Purpose                |
+| ------------------- | :------------: | :----------------------------------: |
+| @emotion/cache      |     11.6.0     |  MUI styling Engine - Cache for SSR  |
+| @emotion/react      |     11.6.0     |   MUI styling Engine - React Dep.    |
+| @emotion/server     |     11.4.0     | MUI styling Engine - Server for SSR  |
+| @emotion/styled     |     11.6.0     | MUI styling Engine - Styles package  |
+| @mui/icons-material |     5.1.1      |          MUI Icons Package           |
+| @mui/lab            | 5.0.0-alpha.55 | MUI Lab Components (i.e. DatePicker) |
+| date-fns            |     2.26.0     |          JS Date Utilities           |
+| lodash              |     2.26.0     |             JS Utilities             |
+| react-redux         |     7.2.6      | Connect Redux to React + Hooks etc.  |
+
+---
+
+## Furthermore this Template already implements the upcoming functionalities
+
+### In case of questions please always refer to the respective documentation
+
+- Setup Material-UI with Emotion for SSR
+  - see src/pages/\_document.tsx
+  - see src/pages/\_app.tsx
+  - Custom Theme in src/theme/index.tsx
+- Setup Redux with Redux Toolkit and Redux-Persist
+  - see src/redux
+  - basic store setup with configureStore and type exports
+  - in src/redux/app there are already 2 slices implemented (Theme Toggle and Snackbar)
+- Setup Translation functionality with Node-Polyglot
+  - See src/lib/translate.tsx
+  - Creates a TranslationProvider
+  - Creates Hook for getting the translate method
+  - Creates Hooks to get/set the locale
+  - Translation File located in src/i18n/en.json
+- Custom Hooks
+  - In Addition to the translation hooks, I added 2 more in src/lib/customHooks
+  - usePrevious - returns previous value of a variable
+  - useSnackbar - returns function to display snackbars
+- Config
+  - Almost empty config, added for complete folder structure
+- Components
+  - Already added 3 basic components
+  - CustomAppBar: Basic MUI Appbar with Light/Dark Theme Switch
+  - MainLayout: Wraps every page and adds CustomAppBar
+  - CustomSnackbar: Our Snackbar we display for every Notification
+
+---
+
+---
+
+---
+
+## Finally the Default Readme content by create-next-app
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
