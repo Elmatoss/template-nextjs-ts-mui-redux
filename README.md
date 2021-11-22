@@ -8,8 +8,6 @@
  yarn create next-app --typescript --example https://github.com/Elmatoss/template-nextjs-ts-mui-redux
  ```
  
- or
-
 ## It contains the basic Setup for:
 
 | Name          |   Package Name   | Version |
